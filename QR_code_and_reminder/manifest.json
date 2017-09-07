@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"browser_action": {
 		"default_icon" : "2weima1.png",
-		"default_title": "老子要把网址扫到手机里躺着看！！！",
+		"default_title": "Change URL to QR Code！！！",
 		"default_popup": "popup.html"
 	},
 	"icons"         :{
@@ -10,18 +10,16 @@
                 "48": "48.png",
 		"128":"2weima.png"
 	},
-	"name"          : "URL二维码",
-	"description"	: "在电脑前坐着看网页真尼玛累，老子要把网址扫到手机里躺着看！！！",
+	"name"          : "Change URL to QR Code",
+	"description"	  : "Change URL to QR Code",
 	"permissions"   : [ 
 						"tabs", 
 						"http://chart.googleapis.com/chart",
 						"http://*.g8up.cn/*",
 						"http://*.g8up.com/*",
 						"http://*.duxing.org/*",
-                                                "notifications"
+            "notifications"
 					],
-        "background": { "scripts": ["background.js"] },
 	"homepage_url"  :"http://weibo.com/liaoziyang288",
-	"update_url":"http://xuediannao.sinaapp.com/chrome/url2qrcode/update.xml",
 	"version"       : "1.2.3"
 }
