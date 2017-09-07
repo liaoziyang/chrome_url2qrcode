@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> qrCode </title>
+		<meta name="Author" content="Sigma">
+		<meta name="Keywords" content="获取当前页面URL的二维码">
+		<meta name="Description" content="笃行天下http://www.g8up.cn">
+	</head>
+	<style type="text/css">
+		@-webkit-keyframes sigma{
+			0%   {opacity:0;-webkit-transform:rotate(0deg);}
+			100% {opacity:1;-webkit-transform:rotate(360deg);}
+		}
+		@-webkit-keyframes AuthorInfo{
+			0%{opacity: 0;}
+			100%{opacity: 1;}
+		}
+		img{
+			-webkit-transform-origin:center;
+			-webkit-animation:sigma 2s;
+		}
+		a{
+			text-decoration:none;
+			color: #D8D8D8;
+			font-family: 宋体,雅黑,黑体;
+			font-size: 12px;
+			float: right;
+			-webkit-animation:AuthorInfo 3s;
+		}
+	</style>
+
+	<body>
+		<img id="qrcode" width="300" height="300"/>
+		<a href="http://g8up.cn" target="_blank" title="笃行天下">url2qrcode</a>
+		
+		<script src="g8up.cn.js"></script>
+	</body>
+</html>
