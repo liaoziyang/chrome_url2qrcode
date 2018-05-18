@@ -1,25 +1,25 @@
 ﻿{
 	"manifest_version": 2,
 	"browser_action": {
-		"default_icon" : "2weima1.png",
-		"default_title": "Change URL to QR Code！！！",
-		"default_popup": "popup.html"
+	  "default_icon" : "2weima1.png",
+	  "default_title": "Change URL to QR Code！！！",
+	  "default_popup": "popup.html"
 	},
-	"icons"         :{
-                "16": "16.png",
-                "48": "48.png",
-		"128":"2weima.png"
+	"icons":{
+       	  "16": "16.png",
+          "48": "48.png",
+          "128":"2weima.png"
 	},
-	"name"          : "Change URL to QR Code",
-	"description"	  : "Change URL to QR Code",
-	"permissions"   : [ 
-						"tabs", 
-						"http://chart.googleapis.com/chart",
-						"http://*.g8up.cn/*",
-						"http://*.g8up.com/*",
-						"http://*.duxing.org/*",
-            "notifications"
-					],
-	"homepage_url"  :"http://weibo.com/liaoziyang288",
-	"version"       : "1.2.3"
+	"name": "Change URL to QR Code",
+	"description": "Change URL to QR Code",
+	"permissions": [ 
+			 "tabs", 
+			 "http://chart.googleapis.com/chart",
+			 "http://*.g8up.cn/*",
+			 "http://*.g8up.com/*",
+			 "http://*.duxing.org/*",
+                         "notifications"
+		       ],
+	"homepage_url" :"http://weibo.com/liaoziyang288",
+	"version": "1.2.3"
 }
